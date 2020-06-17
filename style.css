@@ -119,9 +119,45 @@ table, th, td {
   margin-left: 120px;
   border: 3px solid black;
   border-collapse: collapse;
-  background:#6D7B8D;
+  background:grey;
 }
 th, td {
   padding: 5px;
   text-align: center;    
+}
+.footer1{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	background-color: #272727;
+	padding:20px 0px;
+}
+.footermenu{
+	width:100%;
+	height: auto;
+	margin:auto;
+	margin-top:20px;
+}
+.footermenu ul{
+	margin:0px;
+	padding:0px;
+	text-align:center;
+}
+.footermenu ul li{
+	display:inline-block;
+	margin:0px 15px;
+}
+.footermenu ul li a{
+	font-family: arial;
+	font-size:15px;
+	font-weight: 600;
+	color:#fff;
+}
+.footerheading{
+	width:100%;
+	height:auto;
+	margin:auto;
+	margin-top:20px;
+    text-align:center;
+    color: white;
 }
